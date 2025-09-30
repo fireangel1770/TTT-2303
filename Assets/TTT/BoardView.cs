@@ -8,19 +8,6 @@ public class BoardView : MonoBehaviour
 
     [SerializeField] GameObject rowPrefab;
     [SerializeField] GameObject cellPrefab;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void InitializeBoard(int cols, int rows)
     {
         cells = new CellView[cols, rows];
